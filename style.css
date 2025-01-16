@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    padding: 5px;
+}
+
+header {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+main {
+    border: solid greenyellow 1px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffff;
+    margin: 100px auto 20px;
+    padding: 35px 30px 70px;
+    border-radius: 10px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.input-section form {
+    margin: 8px 0;
+}
+
+.input-section input {
+
+    width: 95%;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: #e4e9f5;
+}
+
+.input-section button {
+    background-color: rgb(142, 105, 241);
+    color: white;
+    border-radius: 10px;
+    border-color: #e4e9f5;
+    width: 80%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.search-section form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    row-gap: 10px;
+}
+
+.search-section input {
+    border-radius: 6px;
+    border-color: #e4e9f5;
+    padding: 3px;
+}
+
+.search-section button {
+    border-radius: 10px;
+    color:white;
+    margin: auto;
+    width: 15%;
+    background-color: rgb(142, 105, 241);
+}
+
+.bookshelf-section {
+    border: solid black 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.bookshelf-section #incompleteBookList {
+    margin: auto;
+    width: 100%;
+    padding: 3px;
+}
+
+.bookshelf-section #completeBookList {
+    margin: auto;
+    width: 100%;
+    padding: 3px;
+}
+
+.book-style {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: solid black 1px;
+}
+
+.book-style:hover {
+    transform: translateY(-5px);
+}
+
+.book-style h3 {
+    font-size: 1.25rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    margin-bottom: 8px;
+}
+
+.book-style button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-style button:hover {
+    background-color: #0056b3;
+}
+
+.book-style button[data-testid="bookItemDeleteButton"] {
+    background-color: #e53935;
+}
+
+.book-style button[data-testid="bookItemDeleteButton"]:hover {
+    background-color: #b71c1c;
+}
+
+.book-style button[data-testid="bookItemEditButton"] {
+    background-color: #fbc02d;
+}
+
+.book-style button[data-testid="bookItemEditButton"]:hover {
+    background-color: #f9a825;
+}
+
+
+
+
+
+
